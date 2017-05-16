@@ -1,0 +1,14 @@
+/*~~~~~~~~~~~ Stylesheet ~~~~~~~~~~~~~*/
+
+#mycenter {
+    margin: auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: royalblue;
+}
+
+body {
+        background-color: papayawhip;
+    text-align: center;
+}

@@ -1,14 +1,94 @@
 /*~~~~~~~~~~~ Stylesheet ~~~~~~~~~~~~~*/
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
 #mycenter {
     margin: auto;
-    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 1;
     font-size: 50px;
     text-align: center;
-    color: navy;
+    color: midnightblue;
 }
 
 body {
-    background-color: #C1D5D7;
+    background-color: #559AD0;
     text-align: center;
 }
+
+.topnav ul {
+  	list-style: none;
+  	background-color: white;
+  	text-align: center;
+  	padding: 10px 0px 10px 0px;
+  	margin: 0;
+}
+
+.topnav li {
+  	font-family: 'Roboto Condensed', sans-serif;
+  	font-size: 1.2em;
+  	line-height: 40px;
+  	height: 40px;
+  	border-bottom: 1px solid #888;
+}
+ 
+.topnav a {
+  	text-decoration: none;
+  	color: midnightblue;
+  	display: block;
+  	transition: .3s background-color;
+}
+ 
+.topnav a:hover {
+	color: cadetblue;
+}
+ 
+.topnav a.active {
+  	color: midnightblue;
+  	cursor: default;
+}
+ 
+@media screen and (min-width: 400px) {
+  	.topnav li {
+    	width: 120px;
+    	border-bottom: none;
+    	height: 50px;
+    	line-height: 50px;
+    	font-size: 1.4em;
+  }
+ 
+/* Option 1 - Display Inline
+.topnav li {
+    display: inline-block;
+    margin-right: -4px;
+}
+*/
+ 
+/* Options 2 - Float */
+.topnav li {
+	float: right;
+}
+
+.topnav ul {
+	overflow: auto;
+	width: 100vw;
+	margin: 0 auto;
+}
+
+.topnav {
+	background-color: white;
+}
+
+
+
+
+
+

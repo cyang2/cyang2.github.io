@@ -76,8 +76,6 @@ body {
     text-align: center;
 }
 
-
-
 /*~~~~MEDIA ELEMENTS~~~~*/
 
 iframe {
@@ -86,11 +84,11 @@ iframe {
 }
 
 img.logo {
-    height: 50px;
+    height: 60px;
     width: auto;
     position: fixed;
-    top: 10; 
-    left: 0;
+    top: 0px;
+    left: 0px;
   	padding: 10px;
     z-index: 2;
 }

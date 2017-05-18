@@ -22,8 +22,8 @@ br {
 
 #transparentblock {
     height: 500px;
-    background-color: black;
-    float: center;
+    background: url(home_backdrop.jpg);
+    background-size: 100%;
 }
 
 #block1 {
@@ -93,11 +93,10 @@ img.logo {
     z-index: 2
 }
 
-img.backdrop-img {
-    height: auto;
-    width: auto;
+/*img.backdrop-img {
+    background-size: 100%;
     z-index: -2;
-}
+}*/
 
 /*~~~~NAVIGATION BAR~~~~*/
 

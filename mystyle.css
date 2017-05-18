@@ -76,6 +76,8 @@ body {
     text-align: center;
 }
 
+
+
 /*~~~~MEDIA ELEMENTS~~~~*/
 
 iframe {
@@ -179,7 +181,21 @@ img.logo {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 1;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
 }
+
+#email-block {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 1;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
 

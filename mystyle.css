@@ -155,11 +155,11 @@ img.logo {
 }
  
 .topnav a:hover {
-    color: midnightblue;
+    color: #182F42;
 }
  
 .topnav a.active {
-  	color: midnightblue;
+  	color: #182F42;
   	cursor: default;
   	padding: 0px 0px 3px 0px;
 }

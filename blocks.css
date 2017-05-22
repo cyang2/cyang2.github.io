@@ -58,7 +58,7 @@
 #i-b2-pics img {
     height: 50px;
     width: auto;
-    vertical-align: text-top;
+    vertical-align: middle;
     margin-left: 50px;
     z-index: 2;
 }

@@ -55,21 +55,22 @@
     color: rgba(85, 154, 208, 1.0);
 }
 
-#i-b2-pics img {
+#i-b2-desc img {
+    float: left;
     height: 50px;
     width: auto;
-    vertical-align: middle;
-    margin-left: 50px;
+    padding-right: 50px;
     z-index: 2;
 }
 
-#i-b2-desc p {
+#i-b2-desc span {
+    display: block;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 1;
     font-size: 20px;
     text-align: left;
+    margin-right: 80px;
     margin-left: 50px;
-    margin-right: 100px;
     color: rgba(85, 154, 208, 1.0);
 }
 

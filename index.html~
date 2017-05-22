@@ -31,7 +31,7 @@
                     <div id="i-b2-left" style="float: left; width: 50%;">
                         <img id="schematic-pic" src="tt-schematic.jpg">
                     </div>
-                    <div id="i-b2-desc" style="float: right; width: 50%;"><br>
+                    <div id="i-b2-desc" style="float: right; width: 50%;">
                         <img src="muscle-arm.png" alt="strength">
                         <span>The Track Trainer is a fun, game-like rehabilitation device for hands, arms and shoulders.</span><br><br>
                         <img src="raising-bars.png" alt="effectiveness">

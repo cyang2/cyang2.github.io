@@ -42,8 +42,12 @@
 #i-block2 {
     padding-top: 80px;
     background-color: rgba(255, 255, 255, 1.0);
-    height: 420px;
+    height: 450px;
     text-align: left;
+}
+
+#i-b2-table {
+    padding-top: 50px;
 }
 
 #i-block2 h1 {
@@ -71,9 +75,6 @@
     margin-left: 50px;
     margin-right: 100px;
     color: rgba(85, 154, 208, 1.0);
-}
-
-#i-b2-left img {
 }
 
 /*~~~~PRODUCT PAGE BLOCKS~~~~*/

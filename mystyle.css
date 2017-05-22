@@ -21,6 +21,13 @@ br {
     padding: 0px 50px 0px 150px;
 }
 
+#schematic-pic {
+    height: 270px;
+    width: auto;
+    margin: auto;
+    display: block;
+}
+
 .logo {
     height: 60px;
     width: auto;

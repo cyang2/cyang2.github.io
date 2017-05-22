@@ -3,7 +3,7 @@
 #product-button {
     background-color: rgba(255, 255, 255, 1.0);
     color: rgba(85, 154, 208, 1.0);
-    margin-top: 50px;
+    margin-top: 100px;
     width: auto;
     padding: 15px 32px;
     display: inline-block;
@@ -27,7 +27,7 @@
     padding: 15px 32px;
     display: inline-block;
     cursor: pointer;
-    border-radius: 25px;
+    border-radius: 5px;
     border: 2px solid white;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 1;

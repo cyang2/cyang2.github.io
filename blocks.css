@@ -1,11 +1,5 @@
 /*~~~~BLOCK CLASSES~~~~*/
 
-.transblock {
-    height: 500px;
-    background-color: rgba(0, 0, 0, 0.3);
-    background-size: 100%;
-}
-
 .footer-block {
     padding-top: 80px;
     background-color: rgba(24, 47, 66, 1.0);
@@ -28,6 +22,8 @@
     text-align: center;
     padding-top: 200px;
     height: 400px;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%;
 }
 
 #i-block1 h1 {
@@ -109,6 +105,8 @@
 #t-block1 {
     padding-top: 130px;
     height: 420px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: 100%;
 }
 
 #t-b1-columns {

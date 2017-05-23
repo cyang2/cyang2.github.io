@@ -22,7 +22,7 @@
     text-align: center;
     padding-top: 200px;
     height: 400px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     background-size: 100%;
 }
 
@@ -106,7 +106,7 @@
 #t-block1 {
     padding-top: 170px;
     height: 440px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     background-size: 100%;
 }
 

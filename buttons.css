@@ -1,5 +1,15 @@
 /*~~~~BUTTONS~~~~*/
 
+.footer-button {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Lato', sans-serif;
+    font-weight: 1;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 1.0);
+}
+
 #product-button {
     background-color: rgba(255, 255, 255, 1.0);
     color: rgba(85, 154, 208, 1.0);
@@ -15,6 +25,7 @@
     font-size: 20px;
     text-align: center;
     text-decoration: none;
+    text-decoration-color: rgba(255, 255, 255, 1.0);
 }
 
 #product-button:hover {
@@ -25,7 +36,7 @@
     background-color: rgba(255, 255, 255, 1.0);
     color: rgba(24, 47, 66, 1.0);
     padding: 15px 32px;
-    display: inline-block;
+    display: block;
     cursor: pointer;
     border-radius: 5px;
     border: 2px solid white;
@@ -34,6 +45,8 @@
     font-size: 20px;
     text-align: center;
     text-decoration: none;
+    width: 250px;
+    margin: 60px auto;
 }
 
 #blog-button:hover {

@@ -17,10 +17,10 @@
 }
 
 .footer-block2 {
-    padding-top: 50px;
-    padding-bottom: 90px;
+    padding-top: 40px;
+    padding-bottom: 80px;
     background-color: rgba(24, 47, 66, 1.0);
-    height: 20px;
+    height: 50px;
     text-align: center;
 }
 
@@ -76,19 +76,21 @@
     float: left;
     height: 50px;
     width: auto;
+    display: inline-block;
+    vertical-align: middle;
     padding-right: 50px;
-    z-index: 2;
 }
 
 #i-b2-desc span {
     display: block;
-    font-family: 'Open Sans-Light', 'Open Sans Light', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
     font-size: 20px;
     text-align: left;
     margin-right: 80px;
     margin-left: 50px;
     color: rgba(85, 154, 208, 1.0);
+    overflow: hidden;
 }
 
 #i-block3 {
@@ -125,9 +127,9 @@
 }
 
 #p-block1 p {
-    font-family: 'Open Sans-Light', 'Open Sans Light', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 18.5px;
     text-align: left;
     margin-left: 50px;
     margin-right: 90px;
@@ -160,7 +162,7 @@
 }
 
 #t-block1 p {
-    font-family: 'Open Sans-Light', 'Open Sans Light', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
     font-size: 20px;
     text-align: left;
@@ -201,7 +203,7 @@
 }
 
 #t-block2 p {
-    font-family: 'Open Sans-Light', 'Open Sans Light', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
     font-size: 22px;
     text-align: left;

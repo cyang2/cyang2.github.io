@@ -1,3 +1,10 @@
+:root {
+    --color1: rgba(1, 82, 73, 1.0); /* forest */
+    --color2: rgba(119, 201, 212, 1.0); /* feather blue */
+    --color3: rgba(87, 188, 144, 1.0); /* marine */
+    --color4: rgba(165, 165, 175, 1.0); /* sleek grey */
+}
+
 /*~~~~GENERAL~~~~*/
 
 * {
@@ -73,17 +80,17 @@ br {
  
 .topnav a {
   	text-decoration: none;
-  	color: rgba(85, 154, 208, 1.0);
+  	color: var(--color2);
   	display: block;
   	transition: .3s background-color;
 }
  
 .topnav a:hover {
-    color: rgba(24, 47, 66, 1.0);
+    color: var(--color1);
 }
  
 .topnav a.active {
-  	color: rgba(24, 47, 66, 1.0);
+  	color: var(--color1);
   	cursor: default;
   	padding: 0px 0px 3px 0px;
 }

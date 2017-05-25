@@ -1,8 +1,8 @@
 :root {
-    --color1: rgba(1, 82, 73, 1.0); /* forest */
-    --color2: rgba(119, 201, 212, 1.0); /* feather blue */
-    --color3: rgba(87, 188, 144, 1.0); /* marine */
-    --color4: rgba(165, 165, 175, 1.0); /* sleek grey */
+    --color1: #015249; /* forest */
+    --color2: #77c9d4; /* feather blue */
+    --color3: #57bc90; /* marine */
+    --color4: #13305e; /* navy blue */
 }
 
 /*~~~~GENERAL~~~~*/
@@ -19,6 +19,42 @@
 
 br {
     line-height: 50%;
+}
+
+/*~~~~CLASSES~~~~*/
+
+/* FOOTER BLOCK CLASS */
+.footer-block1 {
+    padding-top: 70px;
+    background-color: var(--color1);
+    height: 20px;
+    text-align: center;
+}
+
+.footer-block1 p {
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1.0);
+}
+
+.footer-block2 {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color: var(--color1);
+    height: 50px;
+    text-align: center;
+}
+
+.footer-block2 p {
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1.0);
 }
 
 /*~~~~MEDIA ELEMENTS~~~~*/

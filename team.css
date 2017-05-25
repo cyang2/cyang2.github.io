@@ -1,0 +1,91 @@
+/*~~~~TEAM PAGE BLOCKS~~~~*/
+
+#t-block1 {
+    padding-top: 170px;
+    height: 66vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: 100%;
+}
+
+#t-block1 h1 {
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1.0);
+}
+
+#t-block1 p {
+    -webkit-columns: 2; /* Chrome, Safari, Opera */
+    -moz-columns: 2; /* Firefox */
+    columns: 2;
+    column-gap: 150px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: rgba(255, 255, 255, 1.0);
+}
+
+#t-block2 {
+    padding-top: 60px;
+    height: auto;
+    background-color: var(--color3);
+}
+
+#t-block2 h1 {
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1.0);
+}
+
+#t-block2 h2 {
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1.0);
+}
+
+#t-block2 p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgba(255, 255, 255, 1.0);
+}
+
+#t-block2a {
+    -webkit-columns: 2; /* Chrome, Safari, Opera */
+    -moz-columns: 2; /* Firefox */
+    columns: 2;
+    column-gap: 50px;
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 40px;
+    height: auto;
+}
+
+#t-block2b {
+    -webkit-columns: 2; /* Chrome, Safari, Opera */
+    -moz-columns: 2; /* Firefox */
+    columns: 2;
+    column-gap: 50px;
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    height: auto;
+}
+
+
+

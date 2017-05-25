@@ -1,0 +1,26 @@
+/*~~~~PRODUCT PAGE BLOCKS~~~~*/
+
+#p-block1 {
+    padding-top: 130px;
+    height: 520px;
+    background-color: var(--color2);
+}
+
+#p-block1 h1 {
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1.0);
+}
+
+#p-block1 p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 21px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 90px;
+    color: rgba(255, 255, 255, 1.0);
+}

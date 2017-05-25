@@ -1,10 +1,10 @@
 /*~~~~INDEX PAGE BLOCKS~~~~*/
 
 #i-block1 {
-    height: 60vh;
+    height: auto;
     width: 100vw;
+    padding: 30vh 0;
     text-align: center;
-    padding-top: 15%;
     background-color: rgba(0, 0, 0, 0.5);
     background-size: 100%;
 }
@@ -15,19 +15,20 @@
     font-weight: 300;
     font-size: 312.5%;
     text-align: center;
-    color: rgba(255, 255, 255, 1.0);
+    color: white;
 }
 
 #i-block2 {
-    height: 72vh;
+    height: auto;
     width: 100vw;
-    padding-top: 5%;
-    background-color: rgba(255, 255, 255, 1.0);
+    padding: 10vh 0;
+    background-color: white;
     text-align: left;
 }
 
 #i-b2-table {
-    padding-top: 4%;
+    padding-top: 8vh;
+    width: 100vw;
 }
 
 #i-block2 h1 {
@@ -61,11 +62,12 @@
 }
 
 #i-block3 {
-    height: 52vh;
+    height: auto;
     width: 100vw;
     padding-top: 10vh;
+    padding-bottom: 14vh;
     background-color: var(--color3);
-    text-align: left;
+    text-align: center;
 }
 
 #i-block3 h1 {
@@ -74,6 +76,9 @@
     font-weight: 900;
     font-size: 220%;
     text-align: center;
-    color: rgba(255, 255, 255, 1.0);
+    color: white;
 }
+
+
+
 

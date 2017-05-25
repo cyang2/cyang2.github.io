@@ -1,32 +1,37 @@
 /*~~~~BUTTONS~~~~*/
 
 .footer-button {
+    height: auto;
+    width: auto;
     color: rgba(255, 255, 255, 0.8);
     font-family: 'Lato', sans-serif;
     font-weight: 900;
-    font-size: 20px;
-    margin: 0 25px;
+    font-size: 125%;
+    margin: 0 3vw;
     text-align: center;
     text-decoration: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 1.0);
+    border-bottom: 1px solid white;
 }
 
 #product-button {
-    background-color: rgba(255, 255, 255, 1.0);
-    color: var(--color1);
-    margin-top: 100px;
+    height: auto;
     width: auto;
-    padding: 15px 32px;
+    padding: 2vh 3vw;
+    margin-top: 15vh;
+    border: none;
+    border-radius: 5px;
+
+    background-color: white;
+    color: var(--color1);
     display: inline-block;
     cursor: pointer;
-    border-radius: 5px;
-    border: none;
+    
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 125%;
     text-align: center;
     text-decoration: none;
-    text-decoration-color: rgba(255, 255, 255, 1.0);
+    text-decoration-color: white;
 }
 
 #product-button:hover {
@@ -34,21 +39,29 @@
 } 
 
 #blog-button {
-    background-color: rgba(255, 255, 255, 1.0);
-    color: var(--color3);
-    padding: 15px 32px;
-    display: block;
-    cursor: pointer;
+    height: auto;
+    width: auto;
+    padding: 2vh 3vw;
+    margin-top: 10vh;
+    border: none;
     border-radius: 5px;
+
+    background-color: white;
+    color: var(--color3);
+    display: inline-block;
+    cursor: pointer;
+    
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 125%;
     text-align: center;
     text-decoration: none;
-    width: 250px;
-    margin: 60px auto;
+    text-decoration-color: white;
 }
 
 #blog-button:hover {
     background-color: rgba(230, 230, 230, 1.0);
 }
+
+
+

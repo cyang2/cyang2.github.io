@@ -1,8 +1,9 @@
 /*~~~~PRODUCT PAGE BLOCKS~~~~*/
 
 #p-block1 {
-    padding-top: 130px;
-    height: 520px;
+    height: auto;
+    width: 100vw;
+    padding: 18vh 0;
     background-color: var(--color2);
 }
 
@@ -10,17 +11,17 @@
     margin: auto;
     font-family: 'Lato', sans-serif;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 312.5%;
     text-align: center;
-    color: rgba(255, 255, 255, 1.0);
+    color: white;
 }
 
 #p-block1 p {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
-    font-size: 21px;
+    font-size: 130%;
     text-align: left;
-    margin-left: 50px;
-    margin-right: 90px;
-    color: rgba(255, 255, 255, 1.0);
+    margin-left: 4vw;
+    margin-right: 6vw;
+    color: white;
 }

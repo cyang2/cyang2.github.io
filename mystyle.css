@@ -24,37 +24,42 @@ br {
 /*~~~~CLASSES~~~~*/
 
 /* FOOTER BLOCK CLASS */
-.footer-block1 {
-    padding-top: 70px;
+
+.footer-block {
+    height: auto;
+    width: 100vw;
+    padding: 8vh 0;
     background-color: var(--color1);
-    height: 20px;
+}
+
+.footer-blocka {
+    height: auto;
+    width: 100vw;
+    padding: 0;
     text-align: center;
 }
 
-.footer-block1 p {
-    margin: auto;
+.footer-blocka p {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 125%;
     text-align: center;
-    color: rgba(255, 255, 255, 1.0);
+    color: white;
 }
 
-.footer-block2 {
-    padding-top: 40px;
-    padding-bottom: 80px;
-    background-color: var(--color1);
-    height: 50px;
+.footer-blockb {
+    height: auto;
+    width: 100vw;
+    padding-top: 4vh;
     text-align: center;
 }
 
-.footer-block2 p {
-    margin: auto;
+.footer-blockb p {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     font-size: 15px;
     text-align: center;
-    color: rgba(255, 255, 255, 1.0);
+    color: white;
 }
 
 /*~~~~MEDIA ELEMENTS~~~~*/
@@ -103,7 +108,7 @@ br {
 
 .topnav ul {
   	list-style: none;
-  	background-color: rgba(255, 255, 255, 1.0);
+  	background-color: white;
   	text-align: center;
   	padding: 10px 0px 10px 0px;
   	font-size: 13px;
@@ -152,7 +157,7 @@ br {
 }
 
 .topnav {
-    background-color: rgba(255, 255, 255, 1.0);
+    background-color: white;
 } 
 
 

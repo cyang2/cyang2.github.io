@@ -34,36 +34,37 @@
     margin: auto;
     font-family: 'Lato', sans-serif;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 220%;
     text-align: center;
     color: var(--color4);
 }
 
 #i-b2-desc img {
-    height: 50px;
+    height: 8vh;
     width: auto;
     float: left;
     display: inline-block;
     vertical-align: middle;
-    padding-right: 50px;
+    padding-right: 4vw;
 }
 
 #i-b2-desc span {
     display: block;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 125%;
     text-align: left;
-    margin-right: 80px;
-    margin-left: 50px;
+    margin-right: 6vw;
+    margin-left: 4vw;
     color: var(--color4);
     overflow: hidden;
 }
 
 #i-block3 {
-    padding: 80px 150px 0px 150px;
+    height: 52vh;
+    width: 100vw;
+    padding-top: 10vh;
     background-color: var(--color3);
-    height: 350px;
     text-align: left;
 }
 
@@ -71,7 +72,7 @@
     margin: auto;
     font-family: 'Lato', sans-serif;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 220%;
     text-align: center;
     color: rgba(255, 255, 255, 1.0);
 }

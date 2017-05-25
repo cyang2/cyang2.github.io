@@ -40,6 +40,17 @@
     color: var(--color4);
 }
 
+#i-b2-left {
+    text-align: center;
+}
+
+#i-b2-left img {
+    width: 25vw;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 #i-b2-desc img {
     height: 8vh;
     width: auto;

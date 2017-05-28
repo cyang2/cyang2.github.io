@@ -42,6 +42,8 @@
 
 #i-b2-left {
     text-align: center;
+    float: left;
+    width: 50vw;
 }
 
 #i-b2-left img {
@@ -49,6 +51,12 @@
     height: auto;
     display: inline-block;
     vertical-align: middle;
+}
+
+#i-b2-desc {
+    width: 50vw;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
 #i-b2-desc img {
@@ -71,6 +79,22 @@
     color: var(--color4);
     overflow: hidden;
 }
+
+@media screen and (max-width: 600px) {
+    #i-b2-left { 
+        float: none;
+        margin: auto;
+    }
+
+    #i-b2-left img {
+        width: 50vw;
+    }
+
+    #i-b2-desc span {
+        margin: 0;
+    }
+}
+
 
 #i-block3 {
     height: auto;

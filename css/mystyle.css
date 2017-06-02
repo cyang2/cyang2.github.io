@@ -5,160 +5,38 @@
     --color4: #13305e; /* navy blue */
 }
 
-/*~~~~GENERAL~~~~*/
-
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+.navbar {
+  background-color: white;
 }
 
-br {
-    line-height: 50%;
+.navbar a {
+	color: black;
 }
 
-/*~~~~CLASSES~~~~*/
-
-.backdrop {
-    width: 100%; 
-    height: 100%; 
-    position: absolute; 
-    left: 0px; 
-    top: 0px; 
-    z-index: -2;
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
 }
 
-.stretch {
-    width: 100%;
-    height: 100%;
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
 }
 
-.footer-block {
-    height: auto;
-    width: 100vw;
-    padding: 8vh 0;
-    background-color: var(--color4);
+.navbar-toggle .icon-bar {
+	background-color: black;
 }
-
-.footer-blocka {
-    height: auto;
-    width: 100vw;
-    padding: 0;
-    text-align: center;
-}
-
-.footer-blocka p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
-    font-size: 125%;
-    text-align: center;
-    color: white;
-}
-
-.footer-blockb {
-    height: auto;
-    width: 100vw;
-    padding-top: 4vh;
-    text-align: center;
-}
-
-.footer-blockb p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
-    font-size: 15px;
-    text-align: center;
-    color: white;
-}
-
-/*~~~~MEDIA ELEMENTS~~~~*/
-
-#demo-vid {
-    float: left;
-    padding: 0px 50px 0px 150px;
-}
-
-#schematic-pic {
-    height: 270px;
-    width: auto;
-    margin: auto;
-    display: block;
-}
-
-.logo {
-    height: 60px;
-    width: auto;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-  	padding: 10px;
-    z-index: 2;
-}
-
-/*~~~~NAVIGATION BAR~~~~*/
-
-.topnav {
-    position: fixed;
-}
-
-.topnav ul {
-  	list-style: none;
-  	background-color: white;
-  	text-align: center;
-  	padding: 10px 0px 10px 0px;
-  	font-size: 13px;
-}
-
-.topnav li {
-  	font-family: 'Roboto Condensed', sans-serif;
-  	border-bottom: 1px solid #888;
-}
- 
-.topnav a {
-  	text-decoration: none;
-  	color: var(--color2);
-  	display: block;
-  	transition: .3s background-color;
-}
- 
-.topnav a:hover {
-    color: var(--color4);
-}
- 
-.topnav a.active {
-  	color: var(--color4);
-  	cursor: default;
-  	padding: 0px 0px 3px 0px;
-}
-
-@media screen and (min-width: 400px) {
-    .topnav li {
-        width: 120px;
-        border-bottom: none;
-        height: 50px;
-        line-height: 50px;
-        font-size: 1.4em;
-    }
-}
-
-.topnav li {
-    float: right;
-}
-
-.topnav ul {
-    overflow: auto;
-    width: 100vw;
-    margin: 0 auto;
-}
-
-.topnav {
-    background-color: white;
-} 
-
-
-
-
-

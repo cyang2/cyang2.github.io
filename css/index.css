@@ -22,17 +22,22 @@ body {
  * Cover
  */
 
+.cover-container {
+  min-width: 100%;
+  padding: 160px 20px 140px 20px;
+  margin: 0 auto;
+  background-color: red;
+}
+
+.marketing-container h1 {
+	font-size: 32px;
+}
+
 .cover-container .btn-lg {
   padding: 10px 20px;
   margin-top: 80px;
 }
 
-.cover-container {
-  min-width: 100%;
-  padding: 200px 20px 160px 20px;
-  margin: 0 auto;
-  background-color: red;
-}
 
 /*
  * Marketing
@@ -41,6 +46,10 @@ body {
 .marketing-container {
 	padding: 20px 80px;
 	background-color: green;
+}
+
+.marketing-container h2 {
+	font-size: 32px;
 }
 
 .marketing-container iframe {
@@ -71,8 +80,145 @@ body {
  * Blog
  */
 
+.blog-container {
+	padding: 50px 200px 90px 200px;
+	background-color: blue;
+}
+
+.blog-container h1 {
+	font-size: 32px;
+}
+
+.blog-container .btn-lg {
+  padding: 10px 20px;
+  margin-top: 40px;
+}
+
+/*
+ * Footer
+ */
+
+.footer-container {
+	padding: 40px 0;
+	font-size: 18px;
+	background-color: yellow;
+}
+
+.footer-container a {
+	color: black;
+}
+
+.footer-info {
+	padding-top: 15px;
+	font-size: 15px;
+}
+
+/*
+ * Responsive sizing
+ */
+
+/* Portrait phone */
+@media (min-width: 0) and (max-width: 567px) {
+	/*
+	 * Cover
+	 */
+
+	.cover-container {
+	  padding: 100px 30px 60px 30px;
+	}
+
+	.cover-container h1 {
+		font-size: 24px;
+	}
+
+	.cover-container .btn-lg {
+	  font-size: 12px;
+		margin-top: 30px;
+	}
+	
+	/*
+	 * Marketing
+	 */
+
+	.marketing-container {
+		padding: 20px 0;
+		background-color: green;
+	}
+
+	.marketing-container h1 {
+		font-size: 24px;
+	}
+
+	.marketing-container iframe {
+		width: 400px;
+		height: 225px;
+	}
+
+	.marketing-container img {
+		width: 50px;
+		height: auto;
+	}
+
+	.marketing-container p {
+		font-size: 14px;
+	}
+
+	/*
+	 * Blog
+	 */
+
+	.blog-container {
+		padding: 20px 40px 50px 40px;
+		background-color: blue;
+	}
+
+	.blog-container h1 {
+		font-size: 20px;
+	}
+
+	.blog-container .btn-lg {
+	  font-size: 12px;
+		margin-top: 20px;
+	}
+}
+
+/* Landscape phone */
+@media (min-width: 568px) and (max-width: 767px) {
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+
+  /*
+	 * Cover
+	 */
+
+  .cover-container {
+  	padding-top: 180px;
+  	padding-bottom: 120px;
+  }
+  .cover-container h1 {
+		font-size: 36px;
+	}
+	.cover-container .btn-lg {
+		font-size: 18px;
+		margin-top: 60px;
+	}
+
+	/*
+	 * Marketing
+	 */
 
 
+
+	/*
+	 * Footer
+	 */
+
+	.footer-container {
+		background-color: red;
+	}
+	
+}
 
 
 /*~~~~INDEX PAGE BLOCKS~~~~*/

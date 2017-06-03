@@ -11,9 +11,16 @@
   background-color: white;
 }
 
-.navbar a {
+.navbar-right a {
 	color: black;
+	font-size: 16px;
 }
+
+.navbar-brand {
+	color: black;
+	font-size: 24px;
+}
+
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {

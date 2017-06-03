@@ -212,11 +212,14 @@ body {
 	}
 
 	.footer-info-wide {
-		color: green;
 		padding: 0;
 	}
 
-	.footer-info-narrow {
+	.footer-info-wide > p {
+		color: transparent;
+	}
+
+	.footer-info-narrow p {
 		color: black;
 	}
 }
@@ -301,11 +304,14 @@ body {
 	}
 
 	.footer-info-wide {
-		color: red;
 		padding: 0;
 	}
 
-	.footer-info-narrow {
+	.footer-info-wide > p {
+		color: transparent;
+	}
+
+	.footer-info-narrow p {
 		font-size: 14px;
 		color: black;
 	}

@@ -212,7 +212,7 @@ body {
 	}
 
 	.footer-info-wide {
-		color: transparent;
+		color: green;
 		padding: 0;
 	}
 
@@ -301,7 +301,7 @@ body {
 	}
 
 	.footer-info-wide {
-		color: transparent;
+		color: red;
 		padding: 0;
 	}
 

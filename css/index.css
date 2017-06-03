@@ -99,8 +99,9 @@ body {
  */
 
 .footer-container {
-	padding: 40px 0;
+	padding: 50px 0;
 	font-size: 18px;
+	text-align: center;
 	background-color: yellow;
 }
 
@@ -108,10 +109,23 @@ body {
 	color: black;
 }
 
-.footer-info {
-	padding-top: 15px;
+.footer-info-wide {
+	padding-top: 20px;
 	font-size: 15px;
+	position: relative;
+	text-align: center;
 }
+
+.footer-info-narrow {
+	padding-top: 15px;
+	position: absolute;
+	top: 0;
+	font-size: 9px;
+	width: 80%;
+	margin-left: 10%;
+	color: transparent;
+}
+
 
 /*
  * Responsive sizing
@@ -141,8 +155,11 @@ body {
 	 */
 
 	.marketing-container {
-		padding: 20px 0;
-		background-color: green;
+		padding: 15px 25px;
+	}
+
+	.marketing-subcontainer {
+		padding: 0;
 	}
 
 	.marketing-container h1 {
@@ -150,8 +167,8 @@ body {
 	}
 
 	.marketing-container iframe {
-		width: 400px;
-		height: 225px;
+		width: 320px;
+		height: 180px;
 	}
 
 	.marketing-container img {
@@ -168,8 +185,7 @@ body {
 	 */
 
 	.blog-container {
-		padding: 20px 40px 50px 40px;
-		background-color: blue;
+		padding: 20px 25px 50px 25px;
 	}
 
 	.blog-container h1 {
@@ -179,6 +195,29 @@ body {
 	.blog-container .btn-lg {
 	  font-size: 12px;
 		margin-top: 20px;
+	}
+
+	/*
+	 * Footer
+	 */
+
+	.footer-container {
+		padding-top: 20px;
+		padding-bottom: 0;
+		font-size: 12px;
+	}
+
+	.footer-container a {
+		color: black;
+	}
+
+	.footer-info-wide {
+		color: transparent;
+		padding: 0;
+	}
+
+	.footer-info-narrow {
+		color: black;
 	}
 }
 
@@ -193,14 +232,15 @@ body {
 	 */
 
   .cover-container {
-  	padding-top: 180px;
-  	padding-bottom: 120px;
+  	padding: 160px 30px 100px 30px;
   }
+
   .cover-container h1 {
-		font-size: 36px;
+		font-size: 32px;
 	}
+
 	.cover-container .btn-lg {
-		font-size: 18px;
+		font-size: 14px;
 		margin-top: 60px;
 	}
 
@@ -208,16 +248,67 @@ body {
 	 * Marketing
 	 */
 
+	.marketing-container {
+		padding: 15px 25px;
+	}
 
+	.marketing-subcontainer {
+		padding: 0 40px;
+	}
+
+	.marketing-container h1 {
+		font-size: 32px;
+	}
+
+	.marketing-container img {
+		width: 60px;
+		height: auto;
+	}
+
+	.marketing-container p {
+		font-size: 16px;
+	}
+
+	/*
+	 * Blog
+	 */
+
+	.blog-container {
+		padding: 50px 50px 80px 50px;
+	}
+
+	.blog-container h1 {
+		font-size: 24px;
+	}
+
+	.blog-container .btn-lg {
+	  font-size: 14px;
+		margin-top: 40px;
+	}
 
 	/*
 	 * Footer
 	 */
-
-	.footer-container {
-		background-color: red;
-	}
 	
+	.footer-container {
+		padding-top: 40px;
+		padding-bottom: 50px;
+		font-size: 16px;
+	}
+
+	.footer-container a {
+		color: black;
+	}
+
+	.footer-info-wide {
+		color: transparent;
+		padding: 0;
+	}
+
+	.footer-info-narrow {
+		font-size: 14px;
+		color: black;
+	}
 }
 
 

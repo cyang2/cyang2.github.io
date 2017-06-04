@@ -1,8 +1,8 @@
 :root {
-    --color4: #015249; /* forest */
+    --color1: #015249; /* forest */
     --color2: #77c9d4; /* feather blue */
-    --color3: #87e5bb; /* marine */
-    --color4: #13305e; /* navy blue */
+    --color3: #57bc90; /* marine */
+    --color4: #4b72af; /* dark blue */
 }
 
 /* CUSTOMIZE THE NAVBAR
@@ -12,12 +12,12 @@
 }
 
 .navbar-right a {
-	color: black;
+	color: var(--color4);
 	font-size: 16px;
 }
 
 .navbar-brand {
-	color: black;
+	color: var(--color4);
 	font-size: 24px;
 }
 
@@ -45,5 +45,5 @@
 }
 
 .navbar-toggle .icon-bar {
-	background-color: black;
+	background-color: var(--color4);
 }

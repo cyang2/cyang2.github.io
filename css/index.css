@@ -126,7 +126,7 @@ body {
  */
 
 .footer-container {
-	padding: 50px 0 100px 0;
+	padding: 50px 0;
 	font-size: 18px;
 	text-align: center;
 	background-color: var(--color4);
@@ -144,21 +144,23 @@ body {
 	border-bottom: 1px solid var(--color1);
 }
 
-.footer-info-wide {
-	padding-top: 20px;
-	position: absolute;
-	width: 100%;
-	font-size: 15px;
+.footer-info-container {
+	padding-top: 30px;
+	font-size: 13px;
 	color: white;
 }
 
-.footer-info-narrow {
-	padding-top: 15px;
-	position: absolute;
-	width: 100%;
-	color: white;
-	display: none;
+.footer-info-left {
+	text-align: right;
+	padding: 0;
+	margin: 0;
 }
+
+.footer-info-right {
+	text-align: left;
+	padding-left: 40px;
+}
+
 
 
 /*
@@ -236,22 +238,30 @@ body {
 	 */
 
 	.footer-container {
-		padding: 20px 0 70px 0;
+		padding: 20px 0;
 		font-size: 12px;
 	}
 
-	.footer-info-wide {
-		display: none;
+	.footer-info-container {
+		padding-top: 10px;
+		font-size: 9px;
+		color: white;
 	}
 
-	.footer-info-narrow {
-		display: block;
-		font-size: 9px;
+	.footer-info-left {
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+
+	.footer-info-right {
+		text-align: center;
+		padding-left: 20px;
 	}
 }
 
 /* Landscape phone */
-@media (min-width: 568px) and (max-width: 767px) {
+@media (min-width: 568px) and (max-width: 1024px) {
   .site-wrapper-inner {
     vertical-align: middle;
   }
@@ -320,17 +330,25 @@ body {
 	 */
 
 	.footer-container {
-		padding: 40px 0 100px 0;
-		font-size: 12px;
+		padding: 50px 0;
+		font-size: 18px;
 	}
 
-	.footer-info-wide {
-		display: none;
+	.footer-info-container {
+		padding-top: 30px;
+		font-size: 13px;
+		color: white;
 	}
 
-	.footer-info-narrow {
-		display: block;
-		font-size: 12px;
+	.footer-info-left {
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+
+	.footer-info-right {
+		text-align: center;
+		padding-left: 20px;
 	}
 }
 

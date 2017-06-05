@@ -42,10 +42,17 @@ body {
 	font-size: 32px;
 }
 
-.cover-container .btn-lg {
+.btn-product {
   padding: 10px 20px;
   margin-top: 80px;
+  font-size: 18px;
+  background-color: white;
   color: var(--color4);
+}
+
+.btn-product:hover {
+  color: var(--color4);
+  background-color: rgba(255,255,255,0.85);
 }
 
 
@@ -101,10 +108,17 @@ body {
 	font-size: 32px;
 }
 
-.blog-container .btn-lg {
+.btn-blog {
   padding: 10px 20px;
   margin-top: 40px;
+  font-size: 18px;
+  background-color: white;
   color: var(--color3);
+}
+
+.btn-blog:hover {
+  color: var(--color3);
+  background-color: rgba(255,255,255,0.85);
 }
 
 /*

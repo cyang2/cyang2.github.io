@@ -150,6 +150,11 @@ body {
 	color: white;
 }
 
+.footer-info-container a {
+		color: white;
+		text-decoration: none;
+}
+
 .footer-info-left {
 	text-align: right;
 	padding: 0;

@@ -48,7 +48,6 @@
 /* Portrait phone */
 @media (min-width: 0) and (max-width: 567px) {
 	.video-container {
-		background-color: blue;
 		text-align: center;
 		padding-bottom: 30px;
 	}
@@ -82,7 +81,6 @@
 /* Landscape phone */
 @media (min-width: 568px) and (max-width: 767px) {
 	.video-container {
-		background-color: red;
 		text-align: center;
 		padding-bottom: 50px;
 	}
@@ -116,7 +114,6 @@
 /* Slightly larger */
 @media (min-width: 768px) and (max-width: 1024px) {
 	.video-container {
-		background-color: green;
 		text-align: center;
 		padding-bottom: 30px; 
 	}

@@ -49,6 +49,7 @@
 @media (min-width: 0) and (max-width: 567px) {
 	.video-container {
 		text-align: center;
+		padding-top: 20px;
 		padding-bottom: 30px;
 	}
 
@@ -60,13 +61,13 @@
 		width: 272px;
 		height: 153px;
 		padding-right: 0;
-		padding-top: 20px;
+		padding-top: 10px;
 	}
 
 	.video-container p {
-		font-size: 17px;
+		font-size: 14px;
 		text-align: left;
-		padding-top: 20px;
+		padding-top: 10px;
 	}
 
 	.video-info {

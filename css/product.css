@@ -2,7 +2,7 @@
 
 .video-container {
   min-width: 100%;
-  padding: 40px 20px 60px 20px;
+  padding: 30px 20px 60px 20px;
   margin-top: 50px;
   color: white;
   background-color: var(--color2);
@@ -15,24 +15,140 @@
 	font-size: 32px;
 }
 
+.video-subcontainer {
+	padding: 20px 0;
+}
+
 .vertical-align {
   display: flex;
   align-items: center;
 }
 
 .video-container iframe {
-	margin: 20px 0;
 	width: 432px;
 	height: 243px;
 	padding-right: 20px;
 }
 
-.video-container p {
+.video-info {
+	width: 432px;
+	padding-left: 20px;
+}
+
+.video-info p {
 	font-size: 17px;
 	text-align: left;
-	padding: 0 100px 0 20px;
 }
 
 
+/*
+ * Responsive sizing
+ */
+
+/* Portrait phone */
+@media (min-width: 0) and (max-width: 567px) {
+	.video-container {
+		background-color: blue;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+
+	.video-subcontainer {
+		padding: 0 30px;
+	}
+
+	.video-container iframe {
+		width: 272px;
+		height: 153px;
+		padding-right: 0;
+		padding-top: 20px;
+	}
+
+	.video-container p {
+		font-size: 17px;
+		text-align: left;
+		padding-top: 20px;
+	}
+
+	.video-info {
+		width: 100%;
+	}
+
+	.vertical-align {
+		display: block;
+	}
+}
+
+/* Landscape phone */
+@media (min-width: 568px) and (max-width: 767px) {
+	.video-container {
+		background-color: red;
+		text-align: center;
+		padding-bottom: 50px;
+	}
+
+	.video-subcontainer {
+		padding: 0 50px;
+	}
+
+	.video-container iframe {
+		width: 400px;
+		height: 225px;
+		padding-right: 0;
+		padding-top: 20px;
+	}
+
+	.video-container p {
+		font-size: 17px;
+		text-align: left;
+		padding-top: 20px;
+	}
+	
+	.video-info {
+		width: 100%;
+	}
+
+	.vertical-align {
+		display: block;
+	}
+}
+
+/* Slightly larger */
+@media (min-width: 768px) and (max-width: 1024px) {
+	.video-container {
+		background-color: green;
+		text-align: center;
+		padding-bottom: 30px; 
+	}
+
+	.video-subcontainer {
+		padding: 0 100px;
+	}
+
+	.video-container iframe {
+		width: 480px;
+		height: 270px;
+		padding-right: 0;
+		padding-top: 20px;
+	}
+
+	.video-container p {
+		font-size: 17px;
+		text-align: left;
+		padding-top: 20px;
+	}
+
+	.video-vid {
+		width: 100%;
+	}
+
+	.video-info {
+		width: 100%;
+	}
+
+	.vertical-align {
+		display: block;
+	}
+}
 
 

@@ -16,23 +16,22 @@ body {
  */
 
 .cover-backdrop {
-  margin-top: 50px;
-	background-image: url("https://ourmindsinmotion.files.wordpress.com/2015/01/retirement.jpg");
-  background-size: 100%;
-  height: 100%;
+	background-image: url("../img/healthy_aging.png");
+  background-position: center;
+  background-size: 100vw auto;
+  background-repeat: no-repeat;
 }
 
 .cover-container {
-  min-width: 100%;
+  height: 500px;
   padding: 120px 20px;
   margin-top: 50px;
   color: white;
-  background-color: rgba(0,0,0,.5);
-  max-height: 100%;
+  background-color: transparent;
 }
 
 .cover-container h1 {
-	font-size: 32px;
+	font-size: 42px;
 }
 
 .btn-product {
@@ -125,17 +124,23 @@ body {
 	/*
 	 * Cover
 	 */
-
-	.cover-container {
-	  padding: 50px 20px;
+	
+	.cover-backdrop {
+	  background-size: auto 400px;
+	  background-repeat: no-repeat;
 	}
 
-	.cover-container h1 {
+	.cover-container {
+		padding: 80px 20px;
+		height: 350px;
+	}
+
+  .cover-container h1 {
 		font-size: 24px;
 	}
 
-	.cover-container .btn-lg {
-	  font-size: 12px;
+	.btn-product {
+		font-size: 12px;
 		margin-top: 30px;
 	}
 	
@@ -144,7 +149,7 @@ body {
 	 */
 
 	.marketing-container {
-		padding: 15px 25px;
+		padding: 0px 25px;
 	}
 
 	.marketing-subcontainer {
@@ -152,7 +157,7 @@ body {
 	}
 
 	.marketing-container h1 {
-		font-size: 24px;
+		font-size: 20px;
 	}
 
 	.marketing-container iframe {
@@ -181,7 +186,7 @@ body {
 		font-size: 20px;
 	}
 
-	.blog-container .btn-lg {
+	.btn-blog {
 	  font-size: 12px;
 		margin-top: 20px;
 	}
@@ -192,18 +197,18 @@ body {
   /*
 	 * Cover
 	 */
-
-  .cover-container {
-  	padding: 80px 20px;
-  }
+	
+	.cover-backdrop {
+	  background-size: auto 515px;
+	  background-repeat: no-repeat;
+	}
 
   .cover-container h1 {
 		font-size: 32px;
 	}
 
-	.cover-container .btn-lg {
+	.btn-product {
 		font-size: 14px;
-		margin-top: 60px;
 	}
 
 	/*
@@ -243,14 +248,11 @@ body {
 		font-size: 24px;
 	}
 
-	.blog-container .btn-lg {
+	.btn-blog {
 	  font-size: 14px;
 		margin-top: 40px;
 	}
 }
-
-
-
 
 
 

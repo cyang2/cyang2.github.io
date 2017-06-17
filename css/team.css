@@ -1,91 +1,163 @@
 /*~~~~TEAM PAGE BLOCKS~~~~*/
 
-#t-block1 {
-    height: auto;
-    width: 100vw;
-    padding: 26vh 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-size: 100%;
+.team-backdrop {
+  margin-top: -110px;
+	background-image: url("../img/team.png");
+  background-size: 100%;
+  height: 100%;
 }
 
-#t-block1 h1 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
-    font-size: 312.5%;
-    text-align: center;
-    color: white;
+.team-container {
+  min-width: 100%;
+  height: 550px;
+  padding: 200px 20px;
+  margin-top: 50px;
+  color: white;
+  background-color: rgba(0,0,0,.5);
+  max-height: 100%;
+  text-align: center;
 }
 
-#t-block1 p {
-    -webkit-columns: 2; /* Chrome, Safari, Opera */
-    -moz-columns: 2; /* Firefox */
-    columns: 2;
-    column-gap: 15vw;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 900;
-    font-size: 125%;
-    text-align: left;
-    margin: 0 15vw;
-    color: white;
+.team-container h1 {
+	font-size: 36px;
 }
 
-#t-block2 {
-    height: auto;
-    width: 100vw;
-    padding-top: 8vh;
-    padding-bottom: 14vh;
-    background-color: var(--color2);
+.team-container p {
+	font-size: 18px;
 }
 
-#t-block2 h1 {
-    margin: auto;
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
-    font-size: 312.5%;
-    text-align: center;
-    color: white;
+.team-subcontainer {
+	padding: 40px;
+	text-align: left;
 }
 
-#t-block2 h2 {
-    margin: auto;
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
-    font-size: 190%;
-    text-align: center;
-    color: white;
+.team-info-left {
+	padding-left: 120px;
+	padding-right: 60px;
 }
 
-#t-block2 p {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 900;
-    font-size: 130%;
-    text-align: center;
-    margin-left: 8vh;
-    margin-right: 8vh;
-    color: white;
+.team-info-right {
+	padding-right: 120px;
+	padding-left: 60px;
 }
 
-#t-block2a {
-    height: auto;
-    width: 80vw;
-    padding-top: 4vh;
-    margin: 0 auto;
-    -webkit-columns: 2; /* Chrome, Safari, Opera */
-    -moz-columns: 2; /* Firefox */
-    columns: 2;
-    column-gap: 8vh;
+.values-container {
+	background-color: var(--color3);
+	padding: 30px 0 50px 0;
+	color: white;
+	text-align: center;
 }
 
-#t-block2b {
-    height: auto;
-    width: 80vw;
-    padding-top: 4vh;
-    margin: 0 auto;
-    -webkit-columns: 2; /* Chrome, Safari, Opera */
-    -moz-columns: 2; /* Firefox */
-    columns: 2;
-    column-gap: 8vh;
+.values-container h1 {
+	font-size: 36px;
 }
+
+.values-container h2 {
+	font-size: 28px;
+}
+
+.values-container p {
+	font-size: 16px;
+}
+
+.values-info-left {
+	padding-left: 120px;
+	padding-right: 40px;
+}
+
+.values-info-right {
+	padding-right: 120px;
+	padding-left: 40px;
+}
+
+/* Portrait phone */
+@media (min-width: 0) and (max-width: 567px) {
+
+	.values-container {
+		background-color: blue;
+	}
+
+}
+
+/* Landscape phone */
+@media (min-width: 568px) and (max-width: 767px) {
+	.team-backdrop {
+	  margin-top: -100px;
+	  background-size: 100%;
+	  height: 100%;
+	}
+
+	.team-container {
+	  min-width: 100%;
+	  height: 500px;
+	  padding: 160px 20px;
+	  margin-top: 50px;
+	  color: white;
+	  background-color: rgba(0,0,0,.5);
+	  max-height: 100%;
+	  text-align: center;
+	}
+
+	.team-info-left {
+		padding-left: 60px;
+		padding-right: 40px;
+	}
+
+	.team-info-right {
+		padding-right: 60px;
+		padding-left: 40px;
+	}
+
+	.values-container {
+		background-color: green;
+	}
+}
+
+/* Slightly larger */
+@media (min-width: 768px) and (max-width: 1024px) {
+	.team-backdrop {
+	  margin-top: -100px;
+	  background-size: 100%;
+	  height: 100%;
+	}
+
+	.team-container {
+	  min-width: 100%;
+	  height: 500px;
+	  padding: 140px 20px 0 20px;
+	  margin-top: 50px;
+	  color: white;
+	  background-color: rgba(0,0,0,.5);
+	  max-height: 100%;
+	  text-align: center;
+	}
+
+	.team-container h1 {
+		font-size: 32px;
+	}
+
+	.team-container p {
+		font-size: 16px;
+	}
+
+	.team-info-left {
+		padding-left: 60px;
+		padding-right: 40px;
+	}
+
+	.team-info-right {
+		padding-right: 60px;
+		padding-left: 40px;
+	}
+
+	.values-container {
+		background-color: red;
+	}
+}
+
+
+
+
 
 
 

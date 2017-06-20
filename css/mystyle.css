@@ -12,11 +12,71 @@ Arrow Down by Antonio Petraglia from the Noun Project
 Arrow Left by Antonio Petraglia from the Noun Project
 */
 
+html {
+	height: 100%;
+	width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+body {
+	text-align: center;
+}
+
+
+/* COLORS
+-------------------------------------------------- */
+
 :root {
     --color1: #015249; /* forest */
     --color2: #77c9d4; /* feather blue */
     --color3: #57bc90; /* marine */
     --color4: #4b72af; /* dark blue */
+}
+
+.bg-transp {
+	background-color: transparent;
+}
+
+.bg-white {
+	background-color: white;
+}
+
+.bg-color1 {
+	background-color: var(--color1); /* forest */
+}
+
+.bg-color2 {
+	background-color: var(--color2); /* forest */
+}
+
+.bg-color3 {
+	background-color: var(--color3); /* forest */
+}
+
+.bg-color4 {
+	background-color: var(--color4); /* forest */
+}
+
+.white {
+	color: white;
+}
+
+.color1 {
+	color: var(--color1);
+}
+
+.color2 {
+	color: var(--color2);
+}
+
+.color3 {
+	color: var(--color3);
+}
+
+.color4 {
+	color: var(--color4);
 }
 
 /* TEXT

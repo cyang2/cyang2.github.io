@@ -1,3 +1,17 @@
+/* CREDIT FOR VECTORS
+-------------------------------------------------- */
+/*
+Muscle by Vectors Market from the Noun Project
+low price by Vaibhav Radhakrishnan from the Noun Project
+barrier by IconfactoryTeam from the Noun Project
+Bright Lightbulb by Martyn Jasinski from the Noun Project
+Check Mark by Kimmi Studio from the Noun Project
+Stopwatch by Kid A from the Noun Project
+Arrow Right by Antonio Petraglia from the Noun Project
+Arrow Down by Antonio Petraglia from the Noun Project
+Arrow Left by Antonio Petraglia from the Noun Project
+*/
+
 :root {
     --color1: #015249; /* forest */
     --color2: #77c9d4; /* feather blue */
@@ -47,6 +61,7 @@ h2 {
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 .navbar {
+	text-align: center;
   background-color: white;
 }
 

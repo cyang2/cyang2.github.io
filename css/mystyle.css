@@ -1,5 +1,5 @@
 /* CREDIT FOR VECTORS
--------------------------------------------------- */
+================================================= */
 /*
 Muscle by Vectors Market from the Noun Project
 low price by Vaibhav Radhakrishnan from the Noun Project
@@ -26,13 +26,15 @@ body {
 
 
 /* COLORS
--------------------------------------------------- */
+================================================= */
 
 :root {
-    --color1: #015249; /* forest */
-    --color2: #77c9d4; /* feather blue */
-    --color3: #57bc90; /* marine */
-    --color4: #4b72af; /* dark blue */
+    --color1: #EFEFEF; /* clean */
+    --color2: #FEB738; /* orange */
+    --color3: #FC3700; /* red */
+    --color4: #49BCAB; /* teal */
+    --color5: #543D95; /* purple */
+    --color6: #363636; /* dark grey */
 }
 
 .bg-transp {
@@ -44,19 +46,27 @@ body {
 }
 
 .bg-color1 {
-	background-color: var(--color1); /* forest */
+	background-color: var(--color1);
 }
 
 .bg-color2 {
-	background-color: var(--color2); /* forest */
+	background-color: var(--color2);
 }
 
 .bg-color3 {
-	background-color: var(--color3); /* forest */
+	background-color: var(--color3);
 }
 
 .bg-color4 {
-	background-color: var(--color4); /* forest */
+	background-color: var(--color4);
+}
+
+.bg-color5 {
+	background-color: var(--color5);
+}
+
+.bg-color6 {
+	background-color: var(--color6);
 }
 
 .white {
@@ -79,8 +89,16 @@ body {
 	color: var(--color4);
 }
 
+.color5 {
+	color: var(--color5);
+}
+
+.color6 {
+	color: var(--color6);
+}
+
 /* TEXT
--------------------------------------------------- */
+================================================= */
 
 h1 {
 	text-align: center;
@@ -92,8 +110,15 @@ h2 {
 	font-size: 28px;
 }
 
+h3 {
+	text-align: center;
+	font-size: 20px;
+}
 
-/* Portrait phone */
+/* TEXT RESPONSIVE SIZING
+================================================= */
+
+/* ===== Portrait phone ===== */
 @media (min-width: 0) and (max-width: 567px) {
 	
 	h1 {
@@ -105,7 +130,7 @@ h2 {
 	}
 }
 
-/* Landscape phone */
+/* ===== Landscape phone ===== */
 @media (min-width: 568px) and (max-width: 767px) {
 
 	h1 {
@@ -118,20 +143,20 @@ h2 {
 }
 
 
-/* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
+/* NAVBAR
+================================================= */
 .navbar {
 	text-align: center;
   background-color: white;
 }
 
 .navbar-brand {
-	color: var(--color4);
+	color: var(--color6);
 	font-size: 24px;
 }
 
 .navbar-right a {
-	color: var(--color4);
+	color: var(--color6);
 	font-size: 16px;
 }
 
@@ -164,18 +189,16 @@ h2 {
 }
 
 .navbar-toggle .icon-bar {
-	background-color: var(--color4);
+	background-color: var(--color6);
 }
 
-/*
- * Footer
- */
+/* FOOTER BLOCK
+================================================= */
 
 .footer-container {
 	padding: 50px 0;
 	font-size: 18px;
 	text-align: center;
-	background-color: var(--color4);
 	color: white;
 }
 
@@ -217,15 +240,12 @@ h2 {
 	padding-left: 40px;
 }
 
-/*
- * Responsive sizing
- */
+/* RESPONSIVE SIZING
+================================================= */
 
-/* Portrait phone */
+/* ===== Portrait phone ===== */
 @media (min-width: 0) and (max-width: 567px) {
-	/*
-	 * Footer
-	 */
+	/* Footer */
 
 	.footer-container {
 		padding: 20px 0;
@@ -250,11 +270,9 @@ h2 {
 	}
 }
 
-/* Landscape phone */
+/* ===== Landscape phone ===== */
 @media (min-width: 568px) and (max-width: 1024px) {
-	/*
-	 * Footer
-	 */
+	/* Footer */
 
 	.footer-container {
 		padding: 50px 0;

@@ -1,5 +1,5 @@
-/* COVER
--------------------------------------------------- */
+/* COVER BLOCK
+================================================= */
 
 .cover-backdrop {
 	background-image: url("../img/healthy_aging.png");
@@ -22,13 +22,13 @@
 }
 
 .btn-product:hover {
-  color: var(--color4);
+  color: var(--color6);
   background-color: rgba(255,255,255,0.85);
 }
 
 
-/* MARKETING
--------------------------------------------------- */
+/* MARKETING BLOCK
+================================================= */
 
 .marketing-container {
 	padding: 20px 80px;
@@ -58,9 +58,8 @@
 	padding: 0px 25px 25px 25px;
 }
 
-/* BLOG
--------------------------------------------------- */
-
+/* BLOG BLOCK
+================================================= */
 .blog-container {
 	padding: 50px 120px 90px 120px;
 }
@@ -72,15 +71,15 @@
 }
 
 .btn-blog:hover {
-  color: var(--color3);
+  color: var(--color2);
   background-color: rgba(255,255,255,0.85);
 }
 
 
 /* RESPONSIVE SIZING
--------------------------------------------------- */
+================================================= */
 
-/* Portrait phone */
+/* ===== Portrait phone ===== */
 @media (min-width: 0) and (max-width: 567px) {
 	/* Cover */
 	
@@ -135,7 +134,7 @@
 	}
 }
 
-/* Landscape phone */
+/* ===== Landscape phone ===== */
 @media (min-width: 568px) and (max-width: 1024px) {
   /* Cover */
 	

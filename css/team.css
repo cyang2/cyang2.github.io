@@ -1,5 +1,7 @@
 /*~~~~TEAM PAGE BLOCKS~~~~*/
 
+/* TEAM BLOCK
+================================================= */
 .team-backdrop {
 	background-image: url("../img/team.png");
   background-position: center;
@@ -32,6 +34,31 @@
 	padding-left: 60px;
 }
 
+/* BIO BLOCK
+================================================= */
+
+.bio-container {
+	padding: 20px 80px;
+}
+
+.bio-container img {
+	margin-bottom: 10px;
+	height: 100px;
+	width: auto;
+}
+
+.bio-subcontainer {
+	padding: 30px 40px 50px 40px;
+}
+
+.bio-container p {
+	font-size: 16px;
+}
+
+
+/* VALUES BLOCK
+================================================= */
+
 .values-container {
 	padding: 30px 0 50px 0;
 }
@@ -50,7 +77,7 @@
 	padding-left: 40px;
 }
 
-/* Portrait phone */
+/* ===== Portrait phone ===== */
 @media (min-width: 0) and (max-width: 567px) {
 	br {
 		content: "";
@@ -86,9 +113,14 @@
 	.values-info-left, .values-info-right {
 		padding: 0 70px;
 	}
+
+	.bio-subcontainer {
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 
-/* Landscape phone */
+/* ===== Landscape phone ===== */
 @media (min-width: 568px) and (max-width: 767px) {
 	br {
 		content: "";
@@ -121,7 +153,7 @@
 	}
 }
 
-/* Slightly larger */
+/* ===== Slightly larger ===== */
 @media (min-width: 768px) and (max-width: 1024px) {
 	.team-backdrop {
 	  background-size: auto 660px;

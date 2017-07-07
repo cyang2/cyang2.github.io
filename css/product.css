@@ -1,71 +1,101 @@
 /*~~~~PRODUCT PAGE BLOCKS~~~~*/
 
-/* VIDEO BLOCK
+/* DISPLAY BLOCK
 ================================================= */
 
-.video-container {
+.display-container {
   min-width: 100%;
-  padding: 30px 20px 60px 20px;
+  padding: 30px;
   margin-top: 50px;
   max-height: 100%;
   text-align: right;
 }
 
-.video-subcontainer {
+.display-subcontainer {
 	padding: 20px 0;
 }
+/*
+.display-container iframe {
+	width: 432px;
+	height: 243px;
+	padding-right: 20px;
+}*/
 
 .vertical-align {
   display: flex;
   align-items: center;
 }
 
-.video-container iframe {
-	width: 432px;
-	height: 243px;
-	padding-right: 20px;
+.tt-isometric {
+  max-width: 50vw;
+  padding: 50px 50px 0 100px;
 }
 
-.video-info {
-	width: 432px;
-	padding-left: 20px;
+.display-info {
+	width: 50vw;
+	padding: 0px 100px;
 }
 
-.video-info p {
+.display-info p {
 	font-size: 17px;
 	text-align: left;
 }
 
+/* INFOGRAPHIC BLOCK
+================================================= */
+
+.infographic-container {
+  padding: 75px 0 100px 0;
+}
+
+
+.infographic-subcontainer {
+  padding-top: 20px;
+}
+
+.infographic-subcontainer img {
+  width: 50px;
+  height: auto;
+}
+
+.infographic-subcontainer p {
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.arrow {
+  vertical-align: text-bottom;
+}
 
 /* RESPONSIVE
 ================================================= */
 
 /* ===== Portrait phone ===== */
 @media (min-width: 0) and (max-width: 567px) {
-	.video-container {
+	.display-container {
 		text-align: center;
 		padding-top: 20px;
 		padding-bottom: 30px;
 	}
 
-	.video-subcontainer {
+	.display-subcontainer {
 		padding: 0 10px;
 	}
 
-	.video-container iframe {
+	/*.display-container iframe {
 		width: 272px;
 		height: 153px;
 		padding-right: 0;
 		padding-top: 10px;
-	}
+	}*/
 
-	.video-container p {
+	.display-container p {
 		font-size: 16px;
 		text-align: left;
 		padding-top: 10px;
 	}
 
-	.video-info {
+	.display-info {
 		width: 100%;
 	}
 
@@ -76,29 +106,29 @@
 
 /* ===== Landscape phone ===== */
 @media (min-width: 568px) and (max-width: 767px) {
-	.video-container {
+	.display-container {
 		text-align: center;
 		padding-bottom: 50px;
 	}
 
-	.video-subcontainer {
+	.display-subcontainer {
 		padding: 0 50px;
 	}
 
-	.video-container iframe {
+	/*.display-container iframe {
 		width: 400px;
 		height: 225px;
 		padding-right: 0;
 		padding-top: 20px;
-	}
+	}*/
 
-	.video-container p {
+	.display-container p {
 		font-size: 17px;
 		text-align: left;
 		padding-top: 20px;
 	}
-	
-	.video-info {
+
+	.display-info {
 		width: 100%;
 	}
 
@@ -109,33 +139,33 @@
 
 /* ===== Slightly larger ===== */
 @media (min-width: 768px) and (max-width: 1024px) {
-	.video-container {
+	.display-container {
 		text-align: center;
-		padding-bottom: 30px; 
+		padding-bottom: 30px;
 	}
 
-	.video-subcontainer {
+	.display-subcontainer {
 		padding: 0 100px;
 	}
 
-	.video-container iframe {
+	.display-container iframe {
 		width: 480px;
 		height: 270px;
 		padding-right: 0;
 		padding-top: 20px;
 	}
 
-	.video-container p {
+	.display-container p {
 		font-size: 17px;
 		text-align: left;
 		padding-top: 20px;
 	}
 
-	.video-vid {
+	.display-vid {
 		width: 100%;
 	}
 
-	.video-info {
+	.display-info {
 		width: 100%;
 	}
 
@@ -143,5 +173,3 @@
 		display: block;
 	}
 }
-
-

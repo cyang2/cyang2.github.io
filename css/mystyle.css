@@ -24,6 +24,19 @@ body {
 	text-align: center;
 }
 
+/* centered columns styles */
+.row-centered {
+    text-align: center;
+}
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    /* inline-block space fix */
+    margin-right: -4px;
+		vertical-align: center;
+}
+
 
 /* COLORS
 ================================================= */
@@ -33,7 +46,7 @@ body {
     --color2: #FEB738; /* orange */
     --color3: #FF3700; /* red */
     --color4: #49BCAB; /* teal */
-    --color5: #543D95; /* purple */
+    --color5: #e74a83; /* purple */
     --color6: #363636; /* dark grey */
     --color7: #8C8C8C; /* light grey */
 }
@@ -149,20 +162,26 @@ h3 {
 .navbar {
 	text-align: center;
   background-color: white;
+	height: 75px;
 }
 
 .navbar-brand {
-	color: var(--color6);
+	color: var(--color5);
 	font-size: 24px;
+	line-height: 75px;
+	padding: 0 25px;
+	font-weight: 500;
 }
 
 .navbar-brand:hover {
 	color: var(--color7);
 }
 
-.navbar-right a {
-	color: var(--color6);
+.navbar-right li > a {
+	color: var(--color5);
 	font-size: 16px;
+	line-height: 75px;
+	padding: 0 15px;
 }
 
 .nav.navbar-nav > li > a:hover {

@@ -19,11 +19,12 @@
   margin-top: 80px;
   margin-bottom: 30px;
   font-size: 18px;
+	border: 3px solid white;
 }
 
 .btn-product:hover {
-  color: var(--color6);
-  background-color: rgba(255,255,255,0.85);
+  color: white;
+  background-color: rgba(0,0,0,0.1);
 }
 
 
@@ -67,11 +68,12 @@
   padding: 10px 20px;
   margin-top: 40px;
   font-size: 18px;
+	border: 3px solid var(--color4);
 }
 
 .btn-blog:hover {
-  color: var(--color2);
-  background-color: rgba(255,255,255,0.85);
+  color: var(--color4);
+  background-color: rgba(0,0,0,0.05);
 }
 
 
@@ -81,7 +83,7 @@
 /* ===== Portrait phone ===== */
 @media (min-width: 0) and (max-width: 567px) {
 	/* Cover */
-	
+
 	.cover-backdrop {
 	  background-size: auto 400px;
 	  background-repeat: no-repeat;
@@ -96,7 +98,7 @@
 		font-size: 12px;
 		margin-top: 30px;
 	}
-	
+
 	/* Marketing */
 
 	.marketing-container {
@@ -136,7 +138,7 @@
 /* ===== Landscape phone ===== */
 @media (min-width: 568px) and (max-width: 1024px) {
   /* Cover */
-	
+
 	.cover-backdrop {
 	  background-size: auto 515px;
 	  background-repeat: no-repeat;
@@ -176,8 +178,3 @@
 		margin-top: 40px;
 	}
 }
-
-
-
-
-

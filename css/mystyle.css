@@ -3,6 +3,7 @@
 /*
 Muscle by Vectors Market from the Noun Project
 low price by Vaibhav Radhakrishnan from the Noun Project
+Line Graph by Souvik Bhattacharjee from the Noun Project
 barrier by IconfactoryTeam from the Noun Project
 Bright Lightbulb by Martyn Jasinski from the Noun Project
 Check Mark by Kimmi Studio from the Noun Project
@@ -50,9 +51,9 @@ body {
     --color1: #EFEFEF; /* clean */
     --color2: #FEB738; /* orange */
     --color3: #FF3700; /* red */
-    --color4: #49BCAB; /* teal */
-    --color5: #e74a83; /* purple */
-    --color6: #363636; /* dark grey */
+    --color4: #49BCAB; /* old teal */
+    --color5: #40c2c4; /* teal rgb(64, 194, 196) */
+    --color6: #505050; /* dark grey */
     --color7: #8C8C8C; /* light grey */
 }
 

@@ -2,7 +2,7 @@
 ================================================= */
 
 .cover-backdrop {
-	background-image: url("../img/healthy_aging.png");
+	background-image: url("../img/index/healthy_aging.png");
   background-position: center;
   background-size: 100vw auto;
   background-repeat: no-repeat;
@@ -68,11 +68,11 @@
   padding: 10px 20px;
   margin-top: 40px;
   font-size: 18px;
-	border: 3px solid var(--color4);
+	border: 3px solid var(--color5);
 }
 
 .btn-blog:hover {
-  color: var(--color4);
+  color: var(--color5);
   background-color: rgba(0,0,0,0.05);
 }
 

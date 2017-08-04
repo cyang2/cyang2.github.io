@@ -1,0 +1,119 @@
+/* CREDIT FOR VECTORS
+================================================= */
+
+html {
+	height: 100%;
+	width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+body {
+	text-align: center;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align: center;
+}
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    /* inline-block space fix */
+    margin-right: -4px;
+		vertical-align: center;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+
+/* COLORS
+================================================= */
+
+:root {
+    --color1: #EFEFEF; /* clean */
+    --color2: #FEB738; /* orange */
+    --color3: #FF3700; /* red */
+    --color4: #49BCAB; /* old teal */
+    --color5: #40c2c4; /* teal rgb(64, 194, 196) */
+    --color6: #505050; /* dark grey */
+    --color7: #8C8C8C; /* light grey */
+}
+
+.bg-transp {
+	background-color: transparent;
+}
+
+.bg-white {
+	background-color: white;
+}
+
+.bg-color1 {
+	background-color: var(--color1);
+}
+
+.bg-color2 {
+	background-color: var(--color2);
+}
+
+.bg-color3 {
+	background-color: var(--color3);
+}
+
+.bg-color4 {
+	background-color: var(--color4);
+}
+
+.bg-color5 {
+	background-color: var(--color5);
+}
+
+.bg-color6 {
+	background-color: var(--color6);
+}
+
+.white {
+	color: white;
+}
+
+.color1 {
+	color: var(--color1);
+}
+
+.color2 {
+	color: var(--color2);
+}
+
+.color3 {
+	color: var(--color3);
+}
+
+.color4 {
+	color: var(--color4);
+}
+
+.color5 {
+	color: var(--color5);
+}
+
+.color6 {
+	color: var(--color6);
+}
+
+/* RESPONSIVE SIZING
+================================================= */
+
+/* ===== Portrait phone ===== */
+@media (min-width: 0) and (max-width: 567px) {
+
+}
+
+/* ===== Landscape phone ===== */
+@media (min-width: 568px) and (max-width: 1024px) {
+
+}

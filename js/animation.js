@@ -13,7 +13,8 @@ function showNextQuote(index) {
 };
 
 $(document).ready(function () {
-  $('.header').fadeIn(3000);
+  $('.header').animate({ opacity: 1 }, 5000);
+  $('.svg-wrapper').animate({ opacity: 1 }, 5000);
   const randomNumber = Math.floor(Math.random() * 20);
   showNextQuote(randomNumber);
 });

@@ -8,7 +8,7 @@
 
 .header {
   padding-top: 100px;
-  display: none;
+  opacity: 0;
 }
 
 .content {
@@ -16,10 +16,24 @@
   width: 100%;
   font-size: 0;
 
+  &.row, &.row-centered {
+    margin: 0;
+    width: 100%;
+  }
+
+  .col-xs-1, .col-centered {
+    margin: 0 20px;
+    padding: 0;
+    width: auto;
+  }
+
   .svg-wrapper {
     display: inline-block;
     position: relative;
     font-size: 0;
+    opacity: 0;
+
+    // animation: fadeIn 3s linear;
 
     &:hover .path {
       animation: 3s draw linear forwards;
@@ -57,7 +71,7 @@
     width: 100px;
     outline: 1px solid transparent;
 
-    animation: fadeIn 2s linear,
+    animation: fadeInCoral 2s linear,
     square-to-circle 6s infinite cubic-bezier(1,.015,.295,1.225) alternate;
     animation-delay: 1s, 3s;
   }

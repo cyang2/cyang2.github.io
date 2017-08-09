@@ -1,9 +1,5 @@
 @import "animation";
-
-h1 {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 68px;
-}
+@import "typography";
 
 .site {
   height: 100vh;
@@ -15,8 +11,6 @@ h1 {
   display: none;
 }
 
-.navbar {
-  text-align: center;
 .cool-thing-container {
   padding: 100px;
 
@@ -35,7 +29,6 @@ h1 {
 .quotes-container {
   position: relative;
   min-height: 150px;
-  text-align: center;
 
   .quote {
     display: none;
@@ -43,9 +36,6 @@ h1 {
     bottom: 30px;
     width: 100%;
     padding: 0 50px;
-    font-family: 'Lato', sans-serif;
-    font-size: 24px;
-    line-height: 1.4;
   }
 }
 

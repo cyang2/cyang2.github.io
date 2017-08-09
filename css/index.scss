@@ -33,8 +33,6 @@
     font-size: 0;
     opacity: 0;
 
-    // animation: fadeIn 3s linear;
-
     &:hover .path {
       animation: 3s draw linear forwards;
     }
@@ -70,10 +68,11 @@
     height: 100px;
     width: 100px;
     outline: 1px solid transparent;
+    opacity: 0;
+    background: coral;
 
-    animation: fadeInCoral 2s linear,
-    square-to-circle 6s infinite cubic-bezier(1,.015,.295,1.225) alternate;
-    animation-delay: 1s, 3s;
+    animation: square-to-circle 6s infinite cubic-bezier(1,.015,.295,1.225) alternate;
+    animation-delay: 3s;
   }
 }
 

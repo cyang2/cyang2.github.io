@@ -39,10 +39,20 @@
     transform: rotate(180deg);
   }
 }
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 500px;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes draw {
   100% {
-    border-radius:50%;
-    background:darksalmon;
-    transform:rotate(180deg);
+    stroke-dashoffset: 0;
   }
 }
 

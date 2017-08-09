@@ -13,22 +13,13 @@
 
 .content {
   display: table;
-  width: 100%;
+  table-layout: fixed;
+  margin: 0 auto;
   font-size: 0;
 
-  &.row, &.row-centered {
-    margin: 0;
-    width: 100%;
-  }
-
-  .col-xs-1, .col-centered {
-    margin: 0 20px;
-    padding: 0;
-    width: auto;
-  }
-
   .svg-wrapper {
-    display: inline-block;
+    display: table-cell;
+    width: 150px;
     position: relative;
     font-size: 0;
     opacity: 0;

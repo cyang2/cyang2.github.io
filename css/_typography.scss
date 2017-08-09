@@ -29,3 +29,28 @@ h4 {
 a:hover {
   text-decoration: none;
 }
+
+/* MEDIA QUERIES
+============================================== */
+
+/* Landscape phone smaller */
+@media (min-width: 568px) and (max-width: 681px) {
+  h4 {
+    font-size: 14px;
+  }
+}
+
+/* Portrait phone */
+@media (min-width: 0) and (max-width: 567px) {
+  h1 {
+    font-size: 42px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 13px;
+  }
+}

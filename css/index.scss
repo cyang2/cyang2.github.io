@@ -74,7 +74,6 @@
 }
 
 .footer {
-  display: table-row;
   position: relative;
   height: 150px;
 
@@ -87,17 +86,17 @@
   }
 }
 
-/* RESPONSIVE SIZING
-================================================= */
+/* MEDIA QUERIES
+============================================== */
 
-/* ===== Portrait phone ===== */
-@media (min-width: 0) and (max-width: 567px) {
+/* Landscape phone larger */
+@media (min-width: 682px) and (max-width: 1024px) {
   body {
-    background: red;
+    background: yellow;
   }
 }
 
-/* ===== Landscape phone smaller ===== */
+/* Landscape phone smaller */
 @media (min-width: 568px) and (max-width: 681px) {
   body {
     background: orange;
@@ -108,9 +107,13 @@
   }
 }
 
-/* ===== Landscape phone larger ===== */
-@media (min-width: 682px) and (max-width: 1024px) {
+/* Portrait phone */
+@media (min-width: 0) and (max-width: 567px) {
   body {
-    background: yellow;
+    background: red;
+  }
+
+  .main > .svg-wrapper {
+    display: block;
   }
 }

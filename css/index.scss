@@ -17,16 +17,18 @@ h1 {
 
 .navbar {
   text-align: center;
+.cool-thing-container {
+  padding: 100px;
 
-  .square {
-    margin: 200px auto;
+  .cool-thing {
+    margin: 0 auto;
     height: 100px;
     width: 100px;
     outline: 1px solid transparent;
 
-    animation: fadeIn 3s linear,
-    square-to-circle 4s infinite cubic-bezier(1,.015,.295,1.225) alternate;
-    animation-delay: 3s, 3s;
+    animation: fadeIn 2s linear,
+    square-to-circle 6s infinite cubic-bezier(1,.015,.295,1.225) alternate;
+    animation-delay: 1s, 3s;
   }
 }
 

@@ -49,7 +49,7 @@ function toggleAvatars() {
 
   $('.contact').hover(
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-smile-img.png");
+      $('.avatar').attr("src", "img/avatar/avatar-eyebrow-img.png");
     },
     function () {
       $('.avatar').attr("src", "img/avatar/avatar-smirk-img.png");

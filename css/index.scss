@@ -1,5 +1,5 @@
-@import "animation";
-@import "typography";
+@import 'animation';
+@import 'typography';
 
 .site {
   display: table;
@@ -20,18 +20,6 @@
   padding-top: 80px;
   opacity: 0;
 }
-
-// .cool-thing {
-//   width: 100px;
-//   height: 100px;
-//   margin: 100px auto;
-//   background: coral;
-//   opacity: 0;
-//   outline: 1px solid transparent;
-//
-//   animation: square-to-circle 6s infinite cubic-bezier(1,.015,.295,1.225) alternate;
-//   animation-delay: 3s;
-// }
 
 .avatar-wrapper {
   opacity: 0;
@@ -57,7 +45,7 @@
     opacity: 0;
 
     &:hover .path {
-      animation: 3s draw linear forwards;
+      animation: 2s drawBox linear forwards;
     }
 
     svg {
@@ -121,3 +109,15 @@
     display: block;
   }
 }
+
+// .cool-thing {
+//   width: 100px;
+//   height: 100px;
+//   margin: 100px auto;
+//   background: coral;
+//   opacity: 0;
+//   outline: 1px solid transparent;
+//
+//   animation: square-to-circle 6s infinite cubic-bezier(1,.015,.295,1.225) alternate;
+//   animation-delay: 3s;
+// }

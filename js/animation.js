@@ -13,46 +13,46 @@ function showNextQuote(index) {
 function toggleAvatars() {
   $('.resume').hover(
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-smile-img.png");
+      $('.avatar').attr("src", "img/avatar/avatar-smile.png");
     },
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-smirk-img.png");
+      $('.avatar').attr("src", "img/avatar/avatar-smirk.png");
     }
   );
 
   $('.code').hover(
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-tongue-img.png");
+      $('.avatar').attr("src", "img/avatar/avatar-tongue.png");
     },
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-smirk-img.png");
+      $('.avatar').attr("src", "img/avatar/avatar-smirk.png");
     }
   );
 
   $('.company').hover(
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-laugh-img.png");
+      $('.avatar').attr("src", "img/avatar/avatar-laugh.png");
     },
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-smirk-img.png");
+      $('.avatar').attr("src", "img/avatar/avatar-smirk.png");
     }
   );
 
   $('.film').hover(
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-surprised-img.png");
+      $('.avatar').attr("src", "img/avatar/avatar-surprised.png");
     },
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-smirk-img.png");
+      $('.avatar').attr("src", "img/avatar/avatar-smirk.png");
     }
   );
 
   $('.contact').hover(
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-eyebrow-img.png");
+      $('.avatar').attr("src", "img/avatar/avatar-eyebrow.png");
     },
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-smirk-img.png");
+      $('.avatar').attr("src", "img/avatar/avatar-smirk.png");
     }
   );
 };

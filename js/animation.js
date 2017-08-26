@@ -13,53 +13,53 @@ function showNextQuote(index) {
 function toggleAvatars() {
   $('.resume').hover(
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-smile.png");
+      $('.face').attr("src", "img/avatar/avatar-smile.png");
     },
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-smirk.png");
+      $('.face').attr("src", "img/avatar/avatar-smirk.png");
     }
   );
 
   $('.code').hover(
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-tongue.png");
+      $('.face').attr("src", "img/avatar/avatar-tongue.png");
     },
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-smirk.png");
+      $('.face').attr("src", "img/avatar/avatar-smirk.png");
     }
   );
 
   $('.company').hover(
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-laugh.png");
+      $('.face').attr("src", "img/avatar/avatar-laugh.png");
     },
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-smirk.png");
+      $('.face').attr("src", "img/avatar/avatar-smirk.png");
     }
   );
 
   $('.film').hover(
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-surprised.png");
+      $('.face').attr("src", "img/avatar/avatar-surprised.png");
     },
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-smirk.png");
+      $('.face').attr("src", "img/avatar/avatar-smirk.png");
     }
   );
 
   $('.contact').hover(
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-eyebrow.png");
+      $('.face').attr("src", "img/avatar/avatar-eyebrow.png");
     },
     function () {
-      $('.avatar').attr("src", "img/avatar/avatar-smirk.png");
+      $('.face').attr("src", "img/avatar/avatar-smirk.png");
     }
   );
 };
 
 $(document).ready(function () {
   $('.header').animate({ opacity: 1 }, 5000);
-  $('.avatar-wrapper').animate({ opacity: 1 }, 5000);
+  $('.avatar').animate({ opacity: 1 }, 5000);
   $('.svg-wrapper').animate({ opacity: 1 }, 5000);
 
   // $('.cool-thing').delay(2000).animate({ opacity: 1 }, 5000);

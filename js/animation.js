@@ -7,7 +7,7 @@ function showNextQuote(index) {
 
   quote.delay(3000).fadeIn(1500).delay(delay).fadeOut(2000);
 
-  setTimeout( function () { showNextQuote(++index); }, 4000 + delay);
+  setTimeout( function () { showNextQuote(++index); }, 3500 + delay);
 };
 
 function toggleAvatars() {

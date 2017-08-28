@@ -58,11 +58,11 @@ function toggleAvatars() {
 };
 
 $(document).ready(function () {
-  $('.header').animate({ opacity: 1 }, 5000);
-  $('.cover').animate({ opacity: 1 }, 5000);
-  $('.avatar').animate({ opacity: 1 }, 5000);
-  $('.svg-wrapper').animate({ opacity: 1 }, 5000);
-  $('.footer').animate({ opacity: 1 }, 5000);
+  $('.header').velocity({ opacity: 1 }, 5000);
+  $('.cover').velocity({ opacity: 1 }, 5000);
+  $('.avatar').velocity({ opacity: 1 }, 5000);
+  $('.svg-wrapper').velocity({ opacity: 1 }, 5000);
+  $('.footer').velocity({ opacity: 1 }, 5000);
 
   toggleAvatars();
 

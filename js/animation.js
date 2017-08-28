@@ -57,6 +57,15 @@ function toggleAvatars() {
   );
 };
 
+function animateHeaderLinks() {
+  $('.header-link').on('mouseenter', function() {
+    $(this).velocity({ translateY: -3.5 }, { delay: 0, duration: 200 });
+  });
+  $('.header-link').on('mouseleave', function() {
+    $(this).velocity('stop').velocity('reverse');
+  });
+};
+
 $(document).ready(function () {
   $('.header').velocity({ opacity: 1 }, 5000);
   $('.cover').velocity({ opacity: 1 }, 5000);
@@ -65,6 +74,7 @@ $(document).ready(function () {
   $('.footer').velocity({ opacity: 1 }, 5000);
 
   toggleAvatars();
+  animateHeaderLinks();
 
   const randomStart = Math.floor(Math.random() * 20);
   showNextQuote(randomStart);

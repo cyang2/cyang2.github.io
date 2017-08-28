@@ -5,7 +5,7 @@ function showNextQuote(index) {
   const wordCount = quote.html().split(" ").length;
   const delay = wordCount * 140;
 
-  quote.delay(3000).fadeIn(1500).delay(delay).fadeOut(2000);
+  quote.fadeIn(1500).delay(delay).fadeOut(2000);
 
   setTimeout( function () { showNextQuote(++index); }, 3500 + delay);
 };
@@ -58,11 +58,12 @@ function toggleAvatars() {
 };
 
 $(document).ready(function () {
+  $('.header').animate({ opacity: 1 }, 5000);
   $('.cover').animate({ opacity: 1 }, 5000);
   $('.avatar').animate({ opacity: 1 }, 5000);
   $('.svg-wrapper').animate({ opacity: 1 }, 5000);
+  $('.footer').animate({ opacity: 1 }, 5000);
 
-  // $('.cool-thing').delay(2000).animate({ opacity: 1 }, 5000);
   toggleAvatars();
 
   const randomStart = Math.floor(Math.random() * 20);
